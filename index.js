@@ -67,8 +67,6 @@ app.get('/orders/:id', (req, res) => {
     res.send(documents);
   })
 })
-
- 
   // client.close();
 });
 
